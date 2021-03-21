@@ -10,10 +10,10 @@ import {
   PARAM_PAGE,
 } from '../../constants'
 
-import { Search } from '../Search'
-import { Table } from '../Table'
+import { Search } from '../Search';
+import { Table } from '../Table';
 import { Button } from '../Button' ;
-
+import Header from '../Header';
 
 //###############################################################
 const Loading = () => 
@@ -174,6 +174,7 @@ class App extends Component {
 
     return (
       <div className="page">
+      <Header />
         <div className="interactions" >
           <Search 
             value={searchTerm}
