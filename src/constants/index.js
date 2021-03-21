@@ -1,6 +1,6 @@
 import { sortBy } from 'lodash'
 
-export const DEFAULT_QUERY = 'redux'
+export const DEFAULT_QUERY = 'newton'
 
 export const DEFAULT_HPP = '100' //default hits per page
 export const PARAM_HPP = 'hitsPerPage=';
